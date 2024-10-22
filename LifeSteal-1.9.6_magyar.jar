@@ -1,10 +1,10 @@
 heartItem:
   enabled: true
-  name: '&c&lExtra szív'
+  name: '&c&lExtra szÃ­v'
   material: RED_DYE
   lore:
-  - '&6Ad egy extra szívet!'
-  - '&7&oVan ${chance}% esélyed hogy sikeresn aktiváld a szívet.'
+  - '&6Ad egy extra szÃ­vet!'
+  - '&7&oVan ${chance}% esÃ©lyed hogy sikeresn aktivÃ¡ld a szÃ­vet.'
   loseChance: 50
   addLimit: 80
   withdraw-enabled: false
@@ -13,13 +13,13 @@ heartItem:
 
 reviveBook:
   enabled: true
-  name: '&c&lÚjraéleszto Könyv'
+  name: '&c&lÃšjraÃ©leszto KÃ¶nyv'
   material: ENCHANTED_BOOK
-  inventory-title: '&a&lÉlessz újra valakit!'
+  inventory-title: '&a&lÃ‰lessz Ãºjra valakit!'
   lore:
-  - '&6Újraéleszti a kiválasztott játékost!'
+  - '&6ÃšjraÃ©leszti a kivÃ¡lasztott jÃ¡tÃ©kost!'
   skull-lore:
-  - '&aNyomj ide hogy újra éleszd.'
+  - '&aNyomj ide hogy Ãºjra Ã©leszd.'
   unbreakable: false
 
 killHeartLimit: 50
@@ -83,39 +83,39 @@ loot:
       chanceForReviveBookToGenerate: 3
 
 messages:
-  heartReceived: '&a&lSzereztél egy szívet!'
-  heartGained: '&a&lSzereztél egy szívet ${player} megölésével!'
-  heartFailure: '&4&lNem sikerült aktiválnod a szívet.'
-  heartLost: '&4&lElvesztettél egy szívet.'
-  noMoreHeartsBan: '&c&lElvesztetted az összes szívedet.'
-  bannedNoMoreHeartsBroadcast: '&c&l${player} &4&lElvesztette az összes szívét.'
+  heartReceived: '&a&lSzereztÃ©l egy szÃ­vet!'
+  heartGained: '&a&lSzereztÃ©l egy szÃ­vet ${player} megÃ¶lÃ©sÃ©vel!'
+  heartFailure: '&4&lNem sikerÃ¼lt aktivÃ¡lnod a szÃ­vet.'
+  heartLost: '&4&lElvesztettÃ©l egy szÃ­vet.'
+  noMoreHeartsBan: '&c&lElvesztetted az Ã¶sszes szÃ­vedet.'
+  bannedNoMoreHeartsBroadcast: '&c&l${player} &4&lElvesztette az Ã¶sszes szÃ­vÃ©t.'
   configReloaded: '&aConfig reloaded.'
   recipesReloaded: '&aRecipes reloaded.'
   lootReloaded: '&aLoot settings reloaded.'
-  heartRemoved: '&4&lEvettek ${amount}x szívet toled.'
+  heartRemoved: '&4&lEvettek ${amount}x szÃ­vet toled.'
   heartRemovedAdmin: '&4&lYou took ${amount}x hearts from ${player}.'
-  heartAdded: '&a&lValaki adott ${amount}x szívet neked.'
-  heartAddedAdmin: '&a&lAdtál ${amount}x szivet ${player}-nek.'
-  heartSetted: '&f&lValaki átváltoztatta a síveidet ${amount}x-re.'
+  heartAdded: '&a&lValaki adott ${amount}x szÃ­vet neked.'
+  heartAddedAdmin: '&a&lAdtÃ¡l ${amount}x szivet ${player}-nek.'
+  heartSetted: '&f&lValaki Ã¡tvÃ¡ltoztatta a sÃ­veidet ${amount}x-re.'
   heartSettedAdmin: '&f&lYou set the number of hearts to ${amount}x for ${player}.'
-  heartCheck: '&e&l${player} játékosnak ${amount}x szíve van.'
-  banRemoved: '&a&lÚjraélesztetted ${player}.'
-  playerNotFound: '&c&lJátékos nem találva.'
+  heartCheck: '&e&l${player} jÃ¡tÃ©kosnak ${amount}x szÃ­ve van.'
+  banRemoved: '&a&lÃšjraÃ©lesztetted ${player}.'
+  playerNotFound: '&c&lJÃ¡tÃ©kos nem talÃ¡lva.'
   playerNotBanned: '&c&l${player} nincs bannolva.'
-  playerNotDead: '&c&l${player} nem fogytak el a szívei ezért nem tudod újraéleszteni.'
-  playerRevived: '&a&lÚjraélesztetted &6&l${player}&a&l!'
-  maxHeartsFromExtraHeart: '&c&lNem tudsz több szívet szerezni mint ${max}x egy extra
-    szív segítségével.'
-  maxHearts: '&c&lNem tudsz több szívet szerezni mint${max}x.'
+  playerNotDead: '&c&l${player} nem fogytak el a szÃ­vei ezÃ©rt nem tudod ÃºjraÃ©leszteni.'
+  playerRevived: '&a&lÃšjraÃ©lesztetted &6&l${player}&a&l!'
+  maxHeartsFromExtraHeart: '&c&lNem tudsz tÃ¶bb szÃ­vet szerezni mint ${max}x egy extra
+    szÃ­v segÃ­tsÃ©gÃ©vel.'
+  maxHearts: '&c&lNem tudsz tÃ¶bb szÃ­vet szerezni mint${max}x.'
   previousPage: '&a&l? Elozo Oldal'
   previousPageLore: '&aClick to move back to page ${page}.'
   currentPage: '&7&lPage ${currentPage} of ${maxPage}'
   currentPageLore: '&7Jelenleg ezen az oldalon vagy ${page}.'
-  nextPage: '&a&lKövetkezo Oldal ?'
-  nextPageLore: '&aKattolj ide hogy tovább menj az ${page} oldalra.'
-  urNotPlayer: '&c&lJátékosnak kell lenned hogy használd.'
-  featureDisabled: '&c&lEz a funkció le van tíltva.'
-  heartWithdrawn: '&a&lLekértél egy szívet.'
+  nextPage: '&a&lKÃ¶vetkezo Oldal ?'
+  nextPageLore: '&aKattolj ide hogy tovÃ¡bb menj az ${page} oldalra.'
+  urNotPlayer: '&c&lJÃ¡tÃ©kosnak kell lenned hogy hasznÃ¡ld.'
+  featureDisabled: '&c&lEz a funkciÃ³ le van tÃ­ltva.'
+  heartWithdrawn: '&a&lLekÃ©rtÃ©l egy szÃ­vet.'
   abuseDetected: '&c&lOur system has detected that your amount of hearts is higher
     than the maximum. We''ve reverted your hearts back to the normal value.'
   altFarmingIgnore: '&c&lOur system has detected that ${killed} is your second account
@@ -125,15 +125,15 @@ messages:
     ${player} has been dropped.'
 
 placeholder-api:
-  banned-text: '&c&lNincsenek szívei.'
-  not-banned-text: '&a&lVannak szívei.'
+  banned-text: '&c&lNincsenek szÃ­vei.'
+  not-banned-text: '&a&lVannak szÃ­vei.'
 
 custom-commands:
   mode: disabled
   onBan:
-  - tellraw @a ${player} játékosnak elfogytak a szívei!
+  - tellraw @a ${player} jÃ¡tÃ©kosnak elfogytak a szÃ­vei!
   onRevive:
-  - tellraw @a ${revived} újra lett élesztve ${reviving} által!
+  - tellraw @a ${revived} Ãºjra lett Ã©lesztve ${reviving} Ã¡ltal!
 
 security:
   alt-farming:
